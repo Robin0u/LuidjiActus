@@ -4,7 +4,7 @@ function checkPassword() {
     var errorMessage = document.getElementById('error-message');
     
     if (password === correctPassword) {
-        window.location.href = "index1.html";
+        window.location.href = "page.html";
     } else {
         errorMessage.style.display = 'block';
     }
