@@ -1,5 +1,5 @@
-const slide = ["lomepal.png", "projetposter.png", "MO 8D.png", "motravels.png"];
-const links = ["article1.html", "articleprojetposter.pdf", "articleMO8D.pdf", "articlemotravels.pdf"];
+const slide = ["saison008d.png", "avenir.png", "avenir.png", "avenir.png"];
+const links = ["luidji8d.html", "error404.html", "error404.html", "error404.html"];
 let numero = 0;
 let intervalId;
 

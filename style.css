@@ -291,3 +291,27 @@ menu-button {
 #slider:hover #suivant {
     opacity: 1;
 }
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #B67332;
+        }
+        .download-link {
+            color: white;
+            background-color: black; /* Ajouter un arrière-plan pour rendre le texte visible */
+            padding: 5px;
+            text-decoration: none;
+        }
+        .download-link:hover {
+            color: yellow; /* Optionnel : changer la couleur lors du survol */
+        }
