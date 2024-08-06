@@ -297,16 +297,18 @@ table {
             border-collapse: collapse;
         }
         table, th, td {
-            border: 1px solid black;
+             border: 5px solid #E1A624; 
         }
         th, td {
             padding: 10px;
-            text-align: left;
+            text-align: center;
         }
         th {
             background-color: #B67332;
         }
         .download-link {
+            align-items: center;
+            text-align: center;
             color: white;
             background-color: black; /* Ajouter un arrière-plan pour rendre le texte visible */
             padding: 5px;
@@ -315,3 +317,20 @@ table {
         .download-link:hover {
             color: yellow; /* Optionnel : changer la couleur lors du survol */
         }
+
+.tableau {
+    font-family: Rubik, sans-serif;
+    font-size: 10;
+    color: white;
+    text-align : center; 
+    padding: 15px; 
+    display: flex;
+    margin: 30px;
+}
+
+.imgtab {
+margin: 1px;
+padding: 1px;
+max-width: 50%;
+height: auto;
+}
