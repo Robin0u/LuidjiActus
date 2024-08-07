@@ -328,9 +328,11 @@ table {
     margin: 30px;
 }
 
-.imgtab {
-margin: 1px;
-padding: 1px;
-max-width: 50%;
-height: auto;
-}
+    .imgtab {
+      margin: 1px;
+      padding: 1px;
+      max-width: 50%;
+      height: auto;
+      position: relative;
+      z-index: 1;
+    }
